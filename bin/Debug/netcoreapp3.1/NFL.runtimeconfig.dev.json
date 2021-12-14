@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Volumes/Home - Work/topherwork/.dotnet/store/|arch|/|tfm|",
+      "/Volumes/Home - Work/topherwork/.nuget/packages"
+    ]
+  }
+}

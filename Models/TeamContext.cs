@@ -15,8 +15,8 @@ namespace NFL.Models
         }
 
         public DbSet<Team> Teams { get; set; }
-        public DbSet<Team> Conferences { get; set; }
-        public DbSet<Team> Divisions { get; set; }
+        public DbSet<Conference> Conferences { get; set; }
+        public DbSet<Division> Divisions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

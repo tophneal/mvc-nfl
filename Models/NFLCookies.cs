@@ -34,7 +34,7 @@ namespace NFL.Models
 
         public string[] GetMyTeamsIds()
         {
-            string cookie = requestCookies[TeamsKey];
+            string cookies = requestCookies[TeamsKey];
             if (string.IsNullOrEmpty(cookies))
                 return new string[] { };
             else

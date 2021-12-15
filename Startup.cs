@@ -26,7 +26,7 @@ namespace NFL
         {
             services.AddRouting(options => options.LowercaseUrls = true);
 
-            services.AddControllersWithViews().AddNewtonsoftJson;
+            services.AddControllersWithViews().AddNewtonsoftJson();
 
             services.AddMemoryCache();
             services.AddSession();
